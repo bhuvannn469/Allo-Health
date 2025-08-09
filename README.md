@@ -508,53 +508,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 _This system is designed to streamline clinic operations and improve patient care delivery._
 
----
 
-## 🛰 Publishing to GitHub (Quick Guide)
 
-1. Create a new empty repository on GitHub (do **not** add README / license there if you keep this one).
-2. From project root (this directory):
-
-```bash
-# If repo not yet initialized
-git init
-git add .
-git commit -m "chore: initial commit"
-
-# Add origin (replace URL)
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-
-# Push main branch
-git branch -M main
-git push -u origin main
-```
-
-3. (Optional) Add tags / releases:
-
-```bash
-git tag -a v1.0.0 -m "Initial release"
-git push origin v1.0.0
-```
-
-4. Enable Issues & set Repo Description summarizing: "Clinic front desk management (NestJS + Next.js) with patients, doctors, appointments, queue & analytics".
-
-### Recommended README Enhancements (Optional)
-
-- Add screenshots (e.g., `docs/screens/`) and embed: `![Dashboard](docs/screens/dashboard.png)`
-- Add a Demo section if you deploy (Render / Railway / AWS)
-- Add a "Tech Decisions" section briefly explaining choices (NestJS for modular architecture, Redis for queue caching, etc.)
-- Add CI badge (GitHub Actions) once you create a workflow (lint + build + test).
-
----
-
-## 🧩 Badge Snippets (Copy/Paste)
-
-```
-![Build](https://github.com/<user>/<repo>/actions/workflows/ci.yml/badge.svg)
-![Docker](https://img.shields.io/badge/Docker-ready-2496ED?logo=docker&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-5+-3178C6?logo=typescript&logoColor=white)
-![React Query](https://img.shields.io/badge/React%20Query-%F0%9F%8C%80-FF4154)
-```
-
-Add them near the title after you create the workflow.
-# Allo-Health
